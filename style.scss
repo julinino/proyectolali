@@ -1,36 +1,17 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+ 
+ @import "./partials/mapas";
+ @import "./partials/footer";
+ @import "./partials/body";
+
+ @import "./partials/extend";
 
 
-
-h1{
-     color: blue
-}
-
-ul{
-    li{
-        background-color: grey;
-    }
-
-
-}
-
-
-.bloque{
-    height: 4vh;
-    width: 100%;
-    background-color: black;
-    border-radius: 100%;
-}
-
-// .circulo {
-//     width: 100px;
-//     height: 100px;
-//     border-radius: 100%;
-//     border-color: black;
-// }
-
-// .logo{
-//     width: 10%;
-//     height: 10%;
-//     border-radius: 100%;
-//     border-color: black;
-// }
+ *{
+    margin:0;
+   padding: 0;
+    box-sizing: border-box;
+     text-decoration: none;
+     list-style: none;
+ }
