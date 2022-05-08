@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+.container20 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 350px;
+  grid-gap: 10px;
+  background-color: black;
+  padding: 10px;
+}
+
+.container20 img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.a {
+  grid-row: 2 span;
+}
+
+.f {
+  grid-column: 2 span;
+}
+
+.e {
+  grid-row: 2 span;
+}
+
+.empresariales {
+  background-color: blue;
+  width: 100%;
+  height: 30%;
+  color: black;
+  font-size: 30px;
+  justify-content: space-around;
+}
+
+.navidad {
+  background-color: white;
+  width: 100%;
+  height: 30%;
+  color: black;
+  font-size: 30px;
+  justify-content: space-around;
+}
+
+.regalos {
+  background-color: orangered;
+  width: 100%;
+  height: 30%;
+  color: black;
+  font-size: 30px;
+  justify-content: space-around;
+}
+
+.vino {
+  font-size: 20px;
+  color: green;
+  background-color: white;
+}
+
+.home2 {
+  background-color: pink;
+  display: flex;
+}
+
+.oferta1 {
+  flex: 1;
+  text-align: center;
+  font-size: 40px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.oferta1:first-child {
+  flex: 2;
+  padding: 15px;
+  font-size: 45px;
+}
+
+.oferta1 a {
+  font-size: 30px;
+}/*# sourceMappingURL=vinos&mas.css.map */

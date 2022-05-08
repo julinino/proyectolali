@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    background-color:black;
+    background-repeat: repeat;
+}
+a{
+    color:brown;
+}
+
+.yellow{
+    color: brown;
+}
+
+ul{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: .5cm;
+    
+}
+li{
+    display: inline;
+    padding: 45px;
+    justify-content:space-evenly;
+}
+
+
+a{
+    text-decoration: none ;
+    color: whitesmoke;
+}
+p{
+    color: white;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+
+}
+
+
+.container{
+    margin: 4%;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: flex-start;
+}
+.box1{
+    
+    height: 300px;
+    width: 200px;
+    border: 10px solid rgb(157, 13, 13);
+    padding: 15px;
+    margin: 10px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.box1 img{
+    width: 100%;
+    height: 50%;
+    margin:30;
+    padding: 30;
+}
+
+.box1:hover{
+    border-radius: 99%;
+  
+}
+
+
+h2{
+    color: rgb(73, 133, 133);
+    text-align: center;
+    font-size: 20px;
+}
+.ver{
+    background-color: red;
+    font-size: 20px;
+    margin: 35px;
+    padding: 20px 20px;
+}
+.ver:hover{
+    border-radius: 50%;
+}
+
+
+
+.ofertas{
+    background-color: pink;
+    padding: 2%;
+    width: 100%;
+    display: flex;
+
+}
+
+.ofertas1{
+    width: 10%;
+    
+}
+.description1{
+    width: 30%;
+}
+
+
+
+
+.slide {
+    margin: 20px;
+    padding: 10%;
+    height: 100%;
+
+}
+.slide img{
+    height: 100vh;
+    width: 80vh;
+}
+
+
+
+
+
+.bloque{
+ height: 4vh;
+width: 100%;
+
+}
+
+ .textheader {
+        
+        font-weight: bold;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+        font-size: 10px;
+       
+
+}
+  .title{
+        
+        font-weight: bold;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+        font-size: 15px;
+        direction: right;
+        color:yellow;
+        animation: animate 20s linear infinite;
+}
+ 
+@keyframes animate{
+    100%{
+        transform: translate(-100%, 0);
+    }
+}
+
+
+
+.circulo {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    border-color: black;
+}
+.logo{
+    width: 10%;
+    height: 10%;
+    border-radius: 100%;
+    border-color: black;
+}
+
+.fondoIndex{
+    width: 100%;
+    height: auto;
+    padding: 0%;
+    margin: 0%;
+
+
+}
+
+h3 {  
+    padding: 10px;
+    margin: 10px;
+    overflow: hidden;
+    font-family: charmonman;
+    font-size: 45px;
+    color: rgb(29, 101, 45);
+}
+
+.container3{
+    background-color: rgb(149, 15, 15);
+}
+
+h4 {
+    font-size: 20px;
+}
+
+.nosotros{
+    background-color: black;
+    padding: 2%;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: flex-start;
+
+}
+
+.nosotros form{
+    width: 1px;
+}
+
+p{
+    font-size: 30px;
+}
+.empresas {
+    color: whitesmoke;
+    font-size: 20px;
+    padding: 2%;
+    
+}
+
+.container-empresa {
+    background-color: RED;
+    width: 100%;
+    height: 100vh;
+}

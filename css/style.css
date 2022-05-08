@@ -1,8 +1,256 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@media all and (max-width: 768px) {
+  li {
+    display: block;
+    padding: 0%;
+    position: relative;
+  }
+
+  .nosotros {
+    display: block;
+  }
+}
 footer {
   background-color: rgb(102, 10, 10);
+}
+
+.nosotros {
+  background-color: black;
+  padding: 2%;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+@media all and (max-width: 768px) {
+  .nosotros {
+    display: block;
+    align-items: center;
+  }
+}
+.nosotros form {
+  width: 1px;
+}
+
+p {
+  font-size: 30px;
+}
+
+.redes {
+  color: blue;
+}
+
+.empresas {
+  color: whitesmoke;
+  font-size: 20px;
+  padding: 2%;
+}
+
+.container-box {
+  display: grid;
+  height: 100%;
+  width: 100%;
+  background-image: url(/assets/barricas.jpg);
+  border: 3px solid rgb(97, 13, 13);
+  padding: 5px;
+  border-radius: 5px;
+  justify-content: space-around;
+  color: white;
+  text-align: center;
+  grid-template-areas: "caja0 caja1 caja2" "caja3 caja4 caja5" "caja6 caja7 caja8" "caja9 caja10 caja11";
+}
+
+.open {
+  background-color: red;
+  font-size: 10px;
+  padding: 10px 10px;
+  border-radius: 50px;
+}
+
+.caja0 {
+  height: 300px;
+  width: 200px;
+  border: 5px solid rgb(157, 13, 13);
+  background-color: black;
+  padding: 15px;
+  margin: 10px;
+  overflow: hidden;
+  border-radius: 5px;
+  grid-area: caja0;
+}
+
+.caja {
+  height: 300px;
+  width: 200px;
+  border: 5px solid rgb(157, 13, 13);
+  background-color: black;
+  padding: 15px;
+  margin: 10px;
+  overflow: hidden;
+  border-radius: 5px;
+  grid-area: caja;
+}
+
+.caja {
+  height: 300px;
+  width: 200px;
+  border: 5px solid rgb(157, 13, 13);
+  background-color: black;
+  padding: 15px;
+  margin: 10px;
+  overflow: hidden;
+  border-radius: 5px;
+  grid-area: caja;
+}
+
+.caja1 {
+  height: 300px;
+  width: 200px;
+  border: 5px solid rgb(157, 13, 13);
+  background-color: black;
+  padding: 15px;
+  margin: 10px;
+  overflow: hidden;
+  border-radius: 5px;
+  grid-area: caja1;
+}
+
+.caja2 {
+  height: 300px;
+  width: 200px;
+  border: 5px solid rgb(157, 13, 13);
+  background-color: black;
+  padding: 15px;
+  margin: 10px;
+  overflow: hidden;
+  border-radius: 5px;
+  grid-area: caja2;
+}
+
+.caja3 {
+  height: 300px;
+  width: 200px;
+  border: 5px solid rgb(157, 13, 13);
+  background-color: black;
+  padding: 15px;
+  margin: 10px;
+  overflow: hidden;
+  border-radius: 5px;
+  grid-area: caja3;
+}
+
+.caja4 {
+  height: 300px;
+  width: 200px;
+  border: 5px solid rgb(157, 13, 13);
+  background-color: black;
+  padding: 15px;
+  margin: 10px;
+  overflow: hidden;
+  border-radius: 5px;
+  grid-area: caja4;
+}
+
+.caja5 {
+  height: 300px;
+  width: 200px;
+  border: 5px solid rgb(157, 13, 13);
+  background-color: black;
+  padding: 15px;
+  margin: 10px;
+  overflow: hidden;
+  border-radius: 5px;
+  grid-area: caja5;
+}
+
+.caja6 {
+  height: 300px;
+  width: 200px;
+  border: 5px solid rgb(157, 13, 13);
+  background-color: black;
+  padding: 15px;
+  margin: 10px;
+  overflow: hidden;
+  border-radius: 5px;
+  grid-area: caja6;
+}
+
+.caja7 {
+  height: 300px;
+  width: 200px;
+  border: 5px solid rgb(157, 13, 13);
+  background-color: black;
+  padding: 15px;
+  margin: 10px;
+  overflow: hidden;
+  border-radius: 5px;
+  grid-area: caja7;
+}
+
+.caja8 {
+  height: 300px;
+  width: 200px;
+  border: 5px solid rgb(157, 13, 13);
+  background-color: black;
+  padding: 15px;
+  margin: 10px;
+  overflow: hidden;
+  border-radius: 5px;
+  grid-area: caja8;
+}
+
+.caja9 {
+  height: 300px;
+  width: 200px;
+  border: 5px solid rgb(157, 13, 13);
+  background-color: black;
+  padding: 15px;
+  margin: 10px;
+  overflow: hidden;
+  border-radius: 5px;
+  grid-area: caja9;
+}
+
+.caja10 {
+  height: 300px;
+  width: 200px;
+  border: 5px solid rgb(157, 13, 13);
+  background-color: black;
+  padding: 15px;
+  margin: 10px;
+  overflow: hidden;
+  border-radius: 5px;
+  grid-area: caja10;
+}
+
+.caja11 {
+  height: 300px;
+  width: 200px;
+  border: 5px solid rgb(157, 13, 13);
+  background-color: black;
+  padding: 15px;
+  margin: 10px;
+  overflow: hidden;
+  border-radius: 5px;
+  grid-area: caja11;
+}
+
+.caja12 {
+  height: 300px;
+  width: 200px;
+  border: 5px solid rgb(157, 13, 13);
+  background-color: black;
+  padding: 15px;
+  margin: 10px;
+  overflow: hidden;
+  border-radius: 5px;
+  grid-area: caja12;
 }
 
 body {
@@ -29,13 +277,13 @@ ul {
 
 li {
   display: inline;
-  padding: 25px;
-  justify-content: center;
+  padding: 45px;
+  justify-content: space-evenly;
 }
 
 a {
   text-decoration: none;
-  color: rgb(156, 156, 156);
+  color: whitesmoke;
 }
 
 p {
@@ -43,74 +291,6 @@ p {
   font-weight: bold;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   text-align: center;
-}
-
-.caja {
-  height: 200px;
-  background-color: rgba(233, 227, 227, 0.767);
-  border: 3px solid rgb(97, 13, 13);
-  padding: 5px;
-  margin: 40px;
-  overflow: hidden;
-  border-radius: 5px;
-}
-
-.caja img {
-  width: 20%;
-  margin: 0;
-  padding: 0;
-}
-
-.cajita {
-  height: 300px;
-  width: 300px;
-  background-color: rgba(233, 227, 227, 0.767);
-  border: 3px solid rgb(97, 13, 13);
-  padding: 5px;
-  margin: 40px;
-  overflow: hidden;
-  border-radius: 5px;
-  margin-top: 10px;
-}
-
-.cajita img {
-  width: 60%;
-  margin: 0;
-  padding: 0;
-}
-
-.cajita1 {
-  height: 300px;
-  width: 300px;
-  background-color: rgba(233, 227, 227, 0.767);
-  border: 3px solid rgb(97, 13, 13);
-  padding: 5px;
-  margin: 40px;
-  overflow: hidden;
-  border-radius: 5px;
-}
-
-.cajita1 img {
-  width: 60%;
-  margin: 0;
-  padding: 0;
-}
-
-.cajita2 {
-  height: 300px;
-  width: 300px;
-  background-color: rgba(233, 227, 227, 0.767);
-  border: 3px solid rgb(97, 13, 13);
-  padding: 5px;
-  margin: 40px;
-  overflow: hidden;
-  border-radius: 5px;
-}
-
-.cajita2 img {
-  width: 60%;
-  margin: 0;
-  padding: 0;
 }
 
 .container {
@@ -137,67 +317,42 @@ p {
   padding: 30;
 }
 
+.box1:hover {
+  border-radius: 99%;
+}
+
 h2 {
   color: rgb(73, 133, 133);
   text-align: center;
   font-size: 20px;
 }
 
-.cajita:hover {
-  border-radius: 90%;
+.ver {
+  background-color: red;
+  font-size: 20px;
+  margin: 35px;
+  padding: 20px 20px;
 }
 
-.container2 {
-  display: grid;
-  margin: 5%;
-  padding: 1%;
-  background-color: rgb(114, 22, 22);
-  grid-template-columns: repeat(3 1fr);
-  grid-auto-rows: 32%;
-  height: 100vh;
-  grid-gap: 10px;
-  grid-template-areas: "header header corner" "left main right" "footer footer right";
+.ver:hover {
+  border-radius: 50%;
 }
 
-@media all and (max-width: 768px) {
-  li {
-    display: block;
-    padding: 0%;
-    justify-content: center;
-    background: rgb(46, 2, 2);
-  }
-
-  .container2 {
-    background-color: white;
-    grid-template-columns: 100%;
-  }
-
-  .container {
-    display: block;
-    grid-template-columns: 100%;
-  }
-}
-.container2 img {
-  height: 100%;
+.ofertas {
+  background-color: pink;
+  padding: 2%;
   width: 100%;
-  object-fit: cover;
+  display: flex;
 }
 
-.a {
-  grid-area: header;
+.ofertas1 {
+  width: 10%;
 }
 
-.e {
-  grid-area: right;
+.description1 {
+  width: 30%;
 }
 
-.f {
-  grid-area: footer;
-}
-
-/* .carousel1 img {
-    min-height: 20%;
-} */
 .slide {
   margin: 20px;
   padding: 10%;
@@ -212,17 +367,30 @@ h2 {
 .bloque {
   height: 4vh;
   width: 100%;
-  background-color: rgb(74, 7, 7);
 }
 
 .textheader {
-  color: yellow 94, 47, 222;
   font-weight: bold;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   text-align: center;
   font-size: 10px;
 }
 
+.title {
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+  font-size: 15px;
+  direction: right;
+  color: yellow;
+  animation: animate 20s linear infinite;
+}
+
+@keyframes animate {
+  100% {
+    transform: translate(-100%, 0);
+  }
+}
 .circulo {
   width: 100px;
   height: 100px;
@@ -238,37 +406,141 @@ h2 {
 }
 
 .fondoIndex {
-  width: 100vh;
+  width: 100%;
+  height: auto;
+  padding: 0%;
+  margin: 0%;
 }
 
-.box5 {
+h3 {
   padding: 10px;
   margin: 10px;
   overflow: hidden;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 5px;
-  color: rgb(105, 11, 11);
+  font-family: charmonman;
+  font-size: 45px;
+  color: rgb(29, 101, 45);
 }
 
-/*%boton{
-    padding: 8px 15px;
-    height: 30px;
-    margin: 25px 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 18px;
-    text-transform: uppercase;
-    font-weight: 800;
-    border-radius: 10px;
-
+.container3 {
+  background-color: rgb(149, 15, 15);
 }
 
-@mixin boton($fondo,$letra) {
-    @extend %boton;
-    background: $fondo;
-    color: $letra;
- }*/
+h4 {
+  font-size: 20px;
+}
+
+.nosotros {
+  background-color: black;
+  padding: 2%;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.nosotros form {
+  width: 1px;
+}
+
+p {
+  font-size: 30px;
+}
+
+.empresas {
+  color: whitesmoke;
+  font-size: 20px;
+  padding: 2%;
+}
+
+.container-empresa {
+  background-color: RED;
+  width: 100%;
+  height: 100vh;
+}
+
+.container20 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 350px;
+  grid-gap: 10px;
+  background-color: black;
+  padding: 10px;
+}
+
+.container20 img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.a {
+  grid-row: 2 span;
+}
+
+.f {
+  grid-column: 2 span;
+}
+
+.e {
+  grid-row: 2 span;
+}
+
+.empresariales {
+  background-color: blue;
+  width: 100%;
+  height: 30%;
+  color: black;
+  font-size: 30px;
+  justify-content: space-around;
+}
+
+.navidad {
+  background-color: white;
+  width: 100%;
+  height: 30%;
+  color: black;
+  font-size: 30px;
+  justify-content: space-around;
+}
+
+.regalos {
+  background-color: orangered;
+  width: 100%;
+  height: 30%;
+  color: black;
+  font-size: 30px;
+  justify-content: space-around;
+}
+
+.vino {
+  font-size: 20px;
+  color: green;
+  background-color: white;
+}
+
+.home2 {
+  background-color: pink;
+  display: flex;
+}
+
+.oferta1 {
+  flex: 1;
+  text-align: center;
+  font-size: 40px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.oferta1:first-child {
+  flex: 2;
+  padding: 15px;
+  font-size: 45px;
+}
+
+.oferta1 a {
+  font-size: 30px;
+}
+
 * {
   margin: 0;
   padding: 0;
