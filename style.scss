@@ -1,9 +1,9 @@
  @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
  
- @import "./partials/mapas";
+ @import "./partials/mediaQ";
  @import "./partials/index&elegi";
- @import "./partials/head&empresas";
+ @import "./partials/header&empresas";
  @import "./partials/vinos&mas";
  
 
@@ -15,4 +15,5 @@
     box-sizing: border-box;
      text-decoration: none;
      list-style: none;
+     outline: none !important;
  }

@@ -26,33 +26,6 @@
   grid-row: 2 span;
 }
 
-.empresariales {
-  background-color: blue;
-  width: 100%;
-  height: 30%;
-  color: black;
-  font-size: 30px;
-  justify-content: space-around;
-}
-
-.navidad {
-  background-color: white;
-  width: 100%;
-  height: 30%;
-  color: black;
-  font-size: 30px;
-  justify-content: space-around;
-}
-
-.regalos {
-  background-color: orangered;
-  width: 100%;
-  height: 30%;
-  color: black;
-  font-size: 30px;
-  justify-content: space-around;
-}
-
 .vino {
   font-size: 20px;
   color: green;
@@ -79,4 +52,12 @@
 
 .oferta1 a {
   font-size: 30px;
+}
+
+.elvino {
+  background-color: black;
+  padding: 1%;
+  font-size: 25px;
+  font-family: "Times New Roman", Times, serif;
+  color: grey;
 }/*# sourceMappingURL=vinos&mas.css.map */
